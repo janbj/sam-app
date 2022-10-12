@@ -4,9 +4,12 @@ phases:
   install:
     runtime-versions:
       java: corretto11
+    commands:
+      - pip3 install aws-sam-cli -U
   build:
     on-failure: ABORT
     commands:
+      - sam build
       - echo "Starting SAM packaging `date` in `pwd`"
       - aws cloudformation package --template-file template.yaml --s3-bucket $BUILD_OUTPUT_BUCKET --output-template-file packaged.yaml
   post_build:
