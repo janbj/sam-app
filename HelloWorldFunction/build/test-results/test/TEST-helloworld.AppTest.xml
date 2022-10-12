@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="helloworld.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-12T08:20:53" hostname="janbjo-Precision-7550" time="2.258">
+<testsuite name="helloworld.AppTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-12T09:12:44" hostname="janbjo-Precision-7550" time="0.678">
   <properties/>
-  <testcase name="successfulResponse" classname="helloworld.AppTest" time="2.258"/>
+  <testcase name="successfulResponse" classname="helloworld.AppTest" time="0.678"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
